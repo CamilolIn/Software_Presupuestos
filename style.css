@@ -68,10 +68,24 @@ nav{
     background-color: sandybrown;
 }
 
-A{
+a{
     color: seagreen;
 }
 
 a:visited{
     color: red;
+}
+
+a:focus,
+a:hover
+{
+    color: black;
+}
+.conten{
+    background-color: chartreuse;
+    padding: 5px;
+}
+
+.conten:hover{
+    background-color: black;
 }
