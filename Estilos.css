@@ -61,7 +61,7 @@ nav{
 }
 
 [data-vegetable="spicy"]{
-    color: red;
+    color:blue;
 }
 
 [data-vegetable="liquid"]{
