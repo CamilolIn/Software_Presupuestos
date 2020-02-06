@@ -67,3 +67,11 @@ nav{
 [data-vegetable="liquid"]{
     background-color: sandybrown;
 }
+
+A{
+    color: seagreen;
+}
+
+a:visited{
+    color: red;
+}
