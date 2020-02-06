@@ -84,8 +84,15 @@ a:hover
 .conten{
     background-color: chartreuse;
     padding: 5px;
+    border-radius: 12%;
 }
 
 .conten:hover{
+    background-color: black;
+}
+
+.conten2::after{
+    content: "HOLAMUNDO";
+    color: blanchedalmond;
     background-color: black;
 }
