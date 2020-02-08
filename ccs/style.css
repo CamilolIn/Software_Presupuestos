@@ -5,6 +5,7 @@ h1{
 }
 body{
     background-color: white;
+    margin: 0 auto;
    
 }
 
@@ -17,10 +18,13 @@ section{
 }
 div{
     
-    border: 20px #0e0e0e;
-    width: 10%;
+    border: 10px #0e0e0e;
+    width: 500px;
     display: inline-block;
     margin: 0px 70px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    align-content: center;
    /* padding: 0.5px;*/
 }
 
@@ -39,7 +43,7 @@ tr{
     border: 10px;*/
 }
 img{
-    margin: 0px 60px;*/
+    margin: 5px;
 }
 
 nav{
@@ -95,4 +99,52 @@ a:hover
     content: "HOLAMUNDO";
     color: blanchedalmond;
     background-color: black;
+}
+
+.diviext{
+    
+    border: 10px blue;
+    background-color:blue;
+  
+    padding: 10px;
+    color: blanchedalmond;
+    text-align: center;
+    margin: 10px;
+    /*margin: 10px;*/
+    position: relative;
+    left: 40px;
+    top: 10px;
+
+    
+       /*padding: 10px;*/
+    
+}
+
+.diviext2{
+    
+    border: 10px red;
+    background-color:black;
+   
+    padding: 10px;
+    color: blanchedalmond;
+    text-align: center;
+    margin: 10px;
+  
+
+    
+}
+
+.diviext:hover{
+    background-color: cadetblue;
+}
+
+.parrafo{
+    text-align: justify;
+    
+}
+
+.contenp{
+    background-color: rgb(248, 240, 229);
+    width: 100%;
+    margin: 0 auto;
 }
