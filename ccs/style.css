@@ -1,159 +1,121 @@
-h1{
-    color:black;
-    
-    
+
+.acustom{
+    color: white;
+    padding: 0px;
 }
-body{
+
+.logo{
+    color: white;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+
+.init_sec{
+    display: inline-block;
     background-color: white;
-    margin: 0 auto;
-   
-}
-
-section{
-    /*background: url(del.jpg);
-    background-repeat: no-repeat;*/
-    opacity: 10;
-    /*height: 100px;*/
-    
-}
-div{
-    
-    border: 10px #0e0e0e;
-    width: 500px;
-    display: inline-block;
-    margin: 0px 70px;
-    font-family: 'Roboto', sans-serif;
+    width: 286px;
+    height: 35px;
+    padding: 0px;
+    margin: 6px;
+    float: right;
+    border-radius: 50px;
     text-align: center;
-    align-content: center;
-   /* padding: 0.5px;*/
+    line-height: 29px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 25px;
+    
 }
 
-h2{
-    background-color: rgb(31, 9, 2);
-}
-.Padre{
-    background-color: rgb(197, 241, 153);
-    width: 100%;
+.init_sec2{
     display: inline-block;
-    margin: auto;
+    width: 25%;
+    height: 70%;
+    padding: 0px;
+    margin: 20px;
+    float: left;
+    line-height: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
 }
 
-tr{
-    /*margin: 70px;
-    border: 10px;*/
-}
-img{
-    margin: 5px;
-}
-
-nav{
+.conten2{
     width: 100%;
-    height: 104px;
-    margin: 5px 0px;
     background-color:#00B9B9;
-    border: 10px #0e0e0e;
-}
-
-.final{
-    background-color: #00B9B9;
-    margin-top: 20px;
-}
-
-
-[data-quantity="1kg"]{
-    color:green;
-}
-
-[data-vegetable="spicy"]{
-    color:blue;
-}
-
-[data-vegetable="liquid"]{
-    background-color: sandybrown;
-}
-
-a{
-    color: seagreen;
-}
-
-a:visited{
-    color: red;
-}
-
-a:focus,
-a:hover
-{
-    color: black;
-}
-.conten{
-    background-color: chartreuse;
-    padding: 5px;
-    border-radius: 12%;
-}
-
-.conten:hover{
-    background-color: black;
-}
-
-.conten2::after{
-    content: "HOLAMUNDO";
-    color: blanchedalmond;
-    background-color: black;
-}
-
-.diviext{
-    
-    border: 10px blue;
-    background-color:blue;
-  
-    padding: 10px;
-    color: blanchedalmond;
-    text-align: center;
-    margin: 10px;
-    /*margin: 10px;*/
+    height: 50px;
+    line-height: 10px;
+    margin: 0px;
     position: relative;
-    left: 40px;
-    top: 10px;
-
     
-       /*padding: 10px;*/
-    
+       
 }
 
-.diviext2{
-    
-    border: 10px red;
-    background-color:black;
-   
-    padding: 10px;
-    color: blanchedalmond;
-    text-align: center;
-    margin: 10px;
-  
-    
-}
-
-.diviext:hover{
-    background-color: cadetblue;
-}
-
-.parrafo{
-    text-align: justify;
-    
-}
-
-.contenp{
-    background-color:white;
+.conten4{
+    position: absolute;
+    left: 0;
+    top: 50px;
     width: 100%;
-    margin: 0 auto;
+    height:100%;
+    background-image: url(/imgenes/bloggif_5e405b42b23a1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: red;
+    }   
+
+.conten4::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    opacity: 60%;
+    
 }
 
-.celdas{
-    background-color:white;
-    border-radius: 20px;
-}
+@media (max-width: 1011px) {
+    .init_sec2 {
+        font-size: 14px;
+    }
+  }
+ 
+  *{
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(/imgenes/bloggif_5e405b42b23a1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    }
 
-.celdas:hover{
-    background-color: rgb(185, 188, 192);
+  footer {
+    background-color: #00B9B9;
+    position: absolute;
+    top: 1050px;
+    bottom: 0;
+    width: 100%;
+    height: 108px;
+    color: white;
+    
+   
+  }
 
-}
+
+ .parraf{
+     width: 50%;
+     padding: 10px;
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+     color: white;
+     font-style: italic;
+     font-size: 40px;
+     margin: -16;
+     
+ }
+  
